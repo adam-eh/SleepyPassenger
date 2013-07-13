@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="20dp"
+        >
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/main_tv_choose_route"/>
+
+
+    <Spinner
+            android:id="@+id/spinner_route"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/main_tv_currentstop"/>
+
+    <Spinner
+            android:id="@+id/spinner_current_stop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/main_tv_destinationstop"/>
+
+    <Spinner
+            android:id="@+id/spinner_destination"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <CheckBox
+            android:id="@+id/schedule_route_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/main_checkbox_schdlroute"
+            />
+
+    <Button
+            android:id="@+id/start_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_tv_start"
+            android:layout_marginTop="10dp"
+            />
+</LinearLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SleepyPassenger</string>
+    <string name="main_tv_destinationstop">Enter your destination stop:</string>
+    <string name="main_tv_currentstop">Enter your current stop:</string>
+    <string name="main_tv_choose_route">Choose your bus route:</string>
+    <string name="main_checkbox_schdlroute">Schedule it!</string>
+    <string name="main_tv_start">Start!</string>
+</resources>
